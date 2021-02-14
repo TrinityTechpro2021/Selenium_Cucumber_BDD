@@ -14,4 +14,3 @@ Examples:
 	| username 			| password 		| firstname | lastname 	| position 	|
 	| batchautomation 	| Test@12345 	| nick 		| nick 		| Manager 	|
 	| batchautomation 	| Test@12345 	| david 	| david 	| Director 	|
-	
