@@ -1,14 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.297111">
-    <testcase classname="Deal Data Creation" name="Free CRM Create a new deal scenario" time="8.297111">
-        <system-out><![CDATA[Given user is already on login Page for deals...............................passed
-When title of login page is Free CRM for deals..............................passed
-Then user enters username and password for deals............................passed
-Then user clicks on login button for deals..................................passed
-Then user is on home page for deals.........................................passed
-Then user moves to new deal page for deals..................................passed
-Then user enters deal details for deals.....................................passed
-Then Close the Browser for deals............................................passed
+<testsuite failures="5" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0">
+    <testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="0">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on login Page.........................................undefined
+When title of login page is Free CRM........................................undefined
+Then user enters "batchautomation" and "Test@12345".........................undefined
+Then user clicks on login button............................................undefined
+Then user is on home page...................................................undefined
+Then user moves to new contact page.........................................undefined
+Then user enters contact details "nick" and "nick" and "Manager"............undefined
+Then Close the Browser......................................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario 2" time="0">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on login Page.........................................undefined
+When title of login page is Free CRM........................................undefined
+Then user enters "batchautomation" and "Test@12345".........................undefined
+Then user clicks on login button............................................undefined
+Then user is on home page...................................................undefined
+Then user moves to new contact page.........................................undefined
+Then user enters contact details "david" and "david" and "Director".........undefined
+Then Close the Browser......................................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Deal Data Creation" name="Free CRM Create a new deal scenario" time="0">
+        <system-out><![CDATA[Given user is already on login Page for deals...............................skipped
+When title of login page is Free CRM for deals..............................skipped
+Then user enters username and password for deals............................skipped
+Then user clicks on login button for deals..................................skipped
+Then user is on home page for deals.........................................skipped
+Then user moves to new deal page for deals..................................skipped
+Then user enters deal details for deals.....................................skipped
+Then Close the Browser for deals............................................skipped
 ]]></system-out>
+    </testcase>
+    <testcase classname="Deal Data Creation dealsmap" name="Free CRM Create a new deal scenario" time="0">
+        <system-out><![CDATA[Given user is already on login Page for dealsmap............................skipped
+When title of login page is Free CRM for dealsmap...........................skipped
+Then user enters username and password for dealsmap.........................skipped
+Then user clicks on login button for dealsmap...............................skipped
+Then user is on home page for dealsmap......................................skipped
+Then user moves to new deal page for dealsmap...............................skipped
+Then user enters deal details for dealsmap..................................skipped
+Then Close the Browser for dealsmap.........................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="0">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on login Page.........................................undefined
+When title of login page is Free CRM........................................undefined
+Then user enters "batchautomation" and "Test@12345".........................undefined
+Then user clicks on login button............................................undefined
+Then user is on home page...................................................undefined
+Then Close the Browser......................................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario 2" time="0">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on login Page.........................................undefined
+When title of login page is Free CRM........................................undefined
+Then user enters "naveenk" and "test@123"...................................undefined
+Then user clicks on login button............................................undefined
+Then user is on home page...................................................undefined
+Then Close the Browser......................................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario 3" time="0">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on login Page.........................................undefined
+When title of login page is Free CRM........................................undefined
+Then user enters "tom" and "test1456".......................................undefined
+Then user clicks on login button............................................undefined
+Then user is on home page...................................................undefined
+Then Close the Browser......................................................undefined
+]]></failure>
     </testcase>
 </testsuite>
